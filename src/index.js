@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 
 import './assets/main.css'
+import './assets/scss.css'
 
 
 ReactDOM.render(

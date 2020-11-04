@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
-    "sass": "node-sass src/assets/SASS/main.scss src/assets/main.css"  
+    "sass": "node-sass src/assets/SASS/main.scss src/assets/scss.css -w"  
   },
   "eslintConfig": {
     "extends": [
