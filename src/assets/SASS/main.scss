@@ -1,1 +1,8 @@
+@import 'variables/index.scss';
 @import 'partials/index.scss';
+
+body{
+   height: 100vh;
+   position: relative;
+   background-color: $white;
+}

@@ -1,3 +1,13 @@
 #nav{
-   background-color: purple;
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+   .nav-btn{
+      margin: 0 1em;
+      padding: 10px; 
+      color: $black; 
+      font-weight: 500; 
+      font-size: 1em;
+   }   
 }
