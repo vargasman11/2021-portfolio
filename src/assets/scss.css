@@ -22,15 +22,25 @@
   color: #E40C2B; }
 
 #jumbo .content__quad {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateY(-75%);
   display: flex;
   flex-wrap: wrap;
-  width: 600px; }
+  width: 500px;
+  height: 400px;
+  position: absolute; }
   #jumbo .content__quad .quad__container {
-    height: 300px;
-    width: 300px; }
+    background-color: red;
+    height: 200px;
+    width: 250px;
+    display: block;
+    position: relative;
+    overflow: hidden; }
     #jumbo .content__quad .quad__container img {
-      width: auto;
-      height: 100%; }
+      max-width: 100%;
+      height: auto; }
 
 #title {
   background-color: #ffffff; }
@@ -50,4 +60,11 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
+
+.content {
+  position: relative;
+  width: 80%;
+  height: 60%;
+  background-color: red; }
