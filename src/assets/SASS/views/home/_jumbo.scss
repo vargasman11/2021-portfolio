@@ -1,0 +1,21 @@
+#jumbo {
+   h1 {
+      font-size: $h1;
+      color: $red;
+   }
+
+   .content__quad{
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      .quad__container {
+         height: 300px;
+         width: 300px;
+         img {
+            width: auto;
+            // height: 200px;
+            height: 100%;
+         }
+      }
+   }
+}
