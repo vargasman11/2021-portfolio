@@ -4,11 +4,12 @@ import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 
 // import './App.css';
 
-import Nav from './partials/Nav';
+import Nav from './partials/nav';
 import Pointer from './partials/pointer';
 import './assets/main.css';
 import Jumbo from './views/Home/Jumbo';
-import Title from './views/Home/Title';
+import About from './views/Home/About';
+import Skills from './views/Home/Skills';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
    <Nav />
    <Pointer />
    <Jumbo />
-   <Title />
+   <About />
+   <Skills />
    </>
   );
 }

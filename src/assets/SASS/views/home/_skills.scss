@@ -1,0 +1,37 @@
+#skills {
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-size: $h1;
+        }
+        ul {
+            padding: 3em 0;
+            li {
+                border: none;
+                background: transparent;
+                    .fab{
+                        font-size: 2em;
+                    }
+                    .fa-html5{ color: #E44D26}
+                    .fa-css3-alt{ color:#0F5298}
+                    .fa-sass{ color:#CD6799}
+                    .fa-npm{color: #CC3534}
+                    .fa-php{ color:#474A8A}
+                    .fa-bootstrap{ color:#602C50}
+                    .fa-react{ color:#61DBFB}
+                    .fa-js{ color: #F0DB4F}
+            }
+        }
+        .marqueeSkills{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            img{
+                margin: 2em;
+            }
+        }
+    }
+}
