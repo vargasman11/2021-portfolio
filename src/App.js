@@ -10,6 +10,7 @@ import './assets/main.css';
 import Jumbo from './views/Home/Jumbo';
 import About from './views/Home/About';
 import Skills from './views/Home/Skills';
+import Experience from './views/Home/Experience';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
    <Jumbo />
    <About />
    <Skills />
+   <Experience />
    </>
   );
 }

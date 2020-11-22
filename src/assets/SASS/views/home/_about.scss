@@ -1,8 +1,9 @@
 #about{
-   // background-color: #ffffff;
    background-color: $blue;
    h1{
       font-size: $h1;
+      color: $white;
+      margin-bottom: 1em;
    }
    .content{
       padding: 0em 4em;
@@ -14,6 +15,7 @@
       flex-wrap: nowrap;
       p{
          font-size: $p;
+         color: $white;
       }
    }
 }

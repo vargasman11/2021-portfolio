@@ -19,41 +19,44 @@
   #pointer img {
     height: 150px; }
 
-#jumbo .content {
-  position: relative; }
-  #jumbo .content h1 {
-    font-size: 85px;
-    color: #E40C2B;
+#jumbo {
+  background-color: #F7F4E9; }
+  #jumbo .content {
+    position: relative; }
+    #jumbo .content h1 {
+      font-size: 85px;
+      color: #E40C2B;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+  #jumbo .content__quad {
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -50%); }
-
-#jumbo .content__quad {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  width: 500px;
-  height: 400px;
-  position: absolute;
-  z-index: 100; }
-  #jumbo .content__quad .quad__container {
-    height: 200px;
-    width: 250px;
-    display: block;
-    position: relative;
-    overflow: hidden; }
-    #jumbo .content__quad .quad__container img {
-      max-width: 100%;
-      height: auto;
-      margin: 1em; }
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    z-index: 100; }
+    #jumbo .content__quad .quad__container {
+      height: 200px;
+      width: 250px;
+      display: block;
+      position: relative;
+      overflow: hidden; }
+      #jumbo .content__quad .quad__container img {
+        max-width: 100%;
+        height: auto;
+        margin: 1em; }
 
 #about {
   background-color: #3CBCC3; }
   #about h1 {
-    font-size: 56px; }
+    font-size: 56px;
+    color: #F7F4E9;
+    margin-bottom: 1em; }
   #about .content {
     padding: 0em 4em;
     display: flex;
@@ -62,49 +65,58 @@
     flex-direction: column;
     flex-wrap: nowrap; }
     #about .content p {
-      font-size: 22px; }
+      font-size: 22px;
+      color: #F7F4E9; }
 
-#skills .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  #skills .content h1 {
-    font-size: 56px; }
-  #skills .content ul {
-    padding: 3em 0; }
-    #skills .content ul li {
-      border: none;
-      background: transparent; }
-      #skills .content ul li .fab {
-        font-size: 2em; }
-      #skills .content ul li .fa-html5 {
-        color: #E44D26; }
-      #skills .content ul li .fa-css3-alt {
-        color: #0F5298; }
-      #skills .content ul li .fa-sass {
-        color: #CD6799; }
-      #skills .content ul li .fa-npm {
-        color: #CC3534; }
-      #skills .content ul li .fa-php {
-        color: #474A8A; }
-      #skills .content ul li .fa-bootstrap {
-        color: #602C50; }
-      #skills .content ul li .fa-react {
-        color: #61DBFB; }
-      #skills .content ul li .fa-js {
-        color: #F0DB4F; }
-  #skills .content .marqueeSkills {
+#skills {
+  background: #F7F4E9; }
+  #skills .content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
-    #skills .content .marqueeSkills img {
-      margin: 2em; }
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #skills .content h1 {
+      font-size: 56px; }
+    #skills .content ul {
+      padding: 3em 0; }
+      #skills .content ul li {
+        border: none;
+        background: transparent; }
+        #skills .content ul li .fab {
+          font-size: 2em; }
+        #skills .content ul li .fa-html5 {
+          color: #E44D26; }
+        #skills .content ul li .fa-css3-alt {
+          color: #0F5298; }
+        #skills .content ul li .fa-sass {
+          color: #CD6799; }
+        #skills .content ul li .fa-npm {
+          color: #CC3534; }
+        #skills .content ul li .fa-php {
+          color: #474A8A; }
+        #skills .content ul li .fa-bootstrap {
+          color: #602C50; }
+        #skills .content ul li .fa-react {
+          color: #61DBFB; }
+        #skills .content ul li .fa-js {
+          color: #F0DB4F; }
+    #skills .content .marqueeSkills {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      #skills .content .marqueeSkills img {
+        margin: 2em; }
+
+#experience .experience-title {
+  font-size: 56px; }
+
+#experience p {
+  font-size: 22px;
+  padding: 5px 0px; }
 
 body {
   height: 100vh;
-  position: relative;
-  background-color: #F7F4E9; }
+  position: relative; }
 
 #root {
   overflow: hidden; }
