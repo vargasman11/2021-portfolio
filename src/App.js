@@ -11,6 +11,7 @@ import Jumbo from './views/Home/Jumbo';
 import About from './views/Home/About';
 import Skills from './views/Home/Skills';
 import Experience from './views/Home/Experience';
+import Projects from './views/Home/Projects';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
    <About />
    <Skills />
    <Experience />
+   <Projects/>
    </>
   );
 }

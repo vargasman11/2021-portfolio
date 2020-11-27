@@ -114,6 +114,31 @@
   font-size: 22px;
   padding: 5px 0px; }
 
+#projects {
+  background-color: #F7F4E9;
+  flex-direction: column; }
+  #projects h1 {
+    font-size: 56px; }
+  #projects #gridProjects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    grid-auto-rows: minmax(100px, auto); }
+    #projects #gridProjects .grid-item {
+      background-color: #3CBCC3; }
+    #projects #gridProjects .grid-item-1 {
+      grid-column: 1 / 2;
+      grid-row: 1;
+      background-color: red; }
+    #projects #gridProjects .grid-item-2 {
+      grid-column: 2 / 3;
+      grid-row: 1;
+      background-color: yellow; }
+    #projects #gridProjects .grid-item-3 {
+      grid-column: 3/ 4;
+      grid-row: 1;
+      background-color: green; }
+
 body {
   height: 100vh;
   position: relative; }
