@@ -1,6 +1,7 @@
 #projects {
     background-color: $white;
     flex-direction: column;
+    // display: block;
 
     h1 {
         font-size: $h1;
@@ -8,37 +9,46 @@
 
     #gridProjects {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 15px;
-        grid-auto-rows: minmax(100px, auto);
+        // grid-template-columns: repeat(8, 1fr);
+        grid-template-columns: repeat(8, 120px);
+        // gap: 15px;
+        grid-gap: 15px;
+        // grid-auto-rows: minmax(100px, auto);
+        grid-template-rows: repeat(6,100px);
 
         .grid-item{
             background-color: $blue;
+            overflow: hidden;
+            // display: flex;
+            // justify-content: center;
+            // align-items: flex-start;
         }
 
         .grid-item-1{
-            grid-column: 1 / 2;
-            grid-row: 1;
-            background-color: red;
+            grid-column: 1 / 4;
+            grid-row: 1 /6;
+            // background-color: red;
         }
         .grid-item-2{
-            grid-column: 2 / 3;
-            grid-row: 1;
+            grid-column: 4 / 6;
+            grid-row: 1 /4;
             background-color: yellow;
         }
         .grid-item-3{
-            grid-column: 3/ 4;
-            grid-row: 1;
+            grid-column: 4/6;
+            grid-row: 4/6;
             background-color: green;
         }
-        // .grid-item-4{
-        //     grid-column: 1 / 3;
-        //     grid-row: 1;
-        // }
-        // .grid-item-5{
-        //     grid-column: 1 / 3;
-        //     grid-row: 1;
-        // }
+        .grid-item-4{
+            grid-column: 6/8;
+            grid-row: 1 / 3;
+            // background-color: black;
+        }
+        .grid-item-5{
+            grid-column: 6/ 8;
+            grid-row: 3/6;
+            background-color: pink;
+        }
         // .grid-item-6{
         //     grid-column: 1 / 3;
         //     grid-row: 1;
