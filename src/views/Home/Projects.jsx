@@ -13,8 +13,8 @@ return (
 <div className="block-container" id="projects">
     <div className="container">
         <div className="row">
-            <div className="col-sm-12">
-                <h1>Projects</h1>
+            <div className="col-sm-12 py-5">
+                <h1 className="text-center">Projects</h1>
             </div>
         </div>
         <div className="row">
@@ -29,6 +29,11 @@ return (
                     <div className="grid-item grid-item-7"></div>
                     <div className="grid-item grid-item-8"></div>
                 </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-sm-12 py-5 text-center">
+                <a href="#" className="btn btn-lg btn-info">View More projects</a>
             </div>
         </div>
     </div>

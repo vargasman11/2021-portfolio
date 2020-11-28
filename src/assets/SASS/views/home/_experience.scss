@@ -1,9 +1,17 @@
-#experience{
-    .experience-title{
-        font-size: $h1;
-    }
-    p{
-        font-size: $p;
-        padding: 5px 0px;
+#experience {
+    display: block;
+
+    .content {
+        margin: 0 auto;
+        .experience-title {
+            font-size: $h1;
+            color: $blue;
+        }
+
+        p {
+            font-size: $p;
+            padding: 5px 0px;
+            color: $black;
+        }
     }
 }

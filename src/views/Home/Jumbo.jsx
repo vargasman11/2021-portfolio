@@ -8,7 +8,7 @@ function Jumbo() {
     return (
         <div className="block-container" id="jumbo">
             <div className="content">
-                <div className="content__quad">
+                {/* <div className="content__quad">
                     <div className="quad__container">
                         <img src={siteOne} alt=""/>
                     </div>
@@ -21,7 +21,7 @@ function Jumbo() {
                     <div className="quad__container">
                         <img src={siteFour} alt=""/>
                     </div>
-                </div>
+                </div> */}
                 <h1>Jerry Juice</h1>
 
             </div>
